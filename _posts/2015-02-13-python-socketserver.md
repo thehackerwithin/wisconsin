@@ -57,6 +57,8 @@ Start the server by running `python server.py` in the terminal.
 
 You can now access this server by navigating to <http://localhost:4000>, and what you'll see is pretty standard server behavior. There will be a listing of all the files in your directory as well as some navigation options for moving through your file tree. By having this in our own python instance however, we can do more... 
 
+(Note: an easier way to get a simple file server like this from the cmd line is `python -m SimpleHTTPServer <port_number>`)
+
 ##Replacing the Request Handler
 
 Rather than relying on a standard request handler, we can create our own for more control:
