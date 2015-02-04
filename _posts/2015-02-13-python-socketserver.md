@@ -24,6 +24,7 @@ Today's presenation will be a brief demo of how to setup a local server, handlin
 
        -python-socketserver (for server)
        -python-simplehttpserver (for request handler, ususally comes with python)
+       -python-gspread (for editing google sheets)
 
 ##Setting up the server
 
@@ -72,12 +73,17 @@ class Handler(SimpleHTTPServer.SimpleHTTPRequestHandler):
         self.wfile.write("Hello Bucky!")
 ```
 
-And give this to the server accordingly
+And give this to the server instance accordingly
 
 ```
 httpd = SocketServer.ThreadingTCPServer(("", PORT), Handler)
 ```
-So now when we visit our [server][server], the browser will simply get an error response of "OK" and will display the text "Hello, Bucky!". Pretty simple, but the effect is that we can now return any text we'd like *from the python instance*.
+So now when we visit our [server][server], the browser will simply get an error response of "OK" and will display the text "Hello, Bucky!". Pretty simple, but the effect is that we can now return any text we'd like *from the python instance*, including html. (see branch demo2 on at the [repo][repo]) The takeaway is that you can now run a subset of processes locally within the python instance.
+
+## The Tie-in
+
+
+
 
 
 
