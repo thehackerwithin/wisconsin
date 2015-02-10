@@ -92,6 +92,16 @@ So why might you want to use something like this?
 
 WARNING: If you plan on leaving a server like this running on a machine, it is important to take recommended saftey measures. ([go here for more][server_safety]
 
+## Example: Dagmc Model Views
+
+I've setup a very simple home server as an example of this. It's purpose is to show slice views of models used for Monte Carly analysis using Dagmc. 
+
+**Again, why is this useful?**
+
+Allows a user to view view slices of a model from afar without even having to build the dagmc stack (and more specifially the tool I've built to do this). The same system could be employed for programs that aren't graphics-based through the passing back of files or output in the form of an html table.
+
+To view the code used for this home server, see the *home_version* and *home_version2* branches of the repo for this example.
+
 
 
 
