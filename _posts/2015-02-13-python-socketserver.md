@@ -16,6 +16,12 @@ tags: python server
 
 Graduate student of Paul's at UW-Madison.
 
+### Git Aside: First Steps with a Repository
+
+Matthew Gidden will provide a short, live demo of cloning and updating a
+repository. Most of the content will cover similar examples from Software
+Carpentry workshops ([1][git-local], [2][git-github]).
+
 ## Using Python's SocketServer
 
 Today's presenation will be a brief demo of how to setup a local server, handling get and post requests using the server, and using the server to access classes or modules within python from the server instance. We will be using code from [this repo][repo].
@@ -105,6 +111,8 @@ To view the code used for this home server, see the *home_version* and *home_ver
 
 
 
+[git-local]: https://github.com/UW-Madison-ACI/boot-camps/blob/2015-01-13/version-control/git/local/Readme.md
+[git-github]: https://github.com/UW-Madison-ACI/boot-camps/blob/2015-01-13/version-control/git/github/Readme.md
 [server_safety]: http://plusbryan.com/my-first-5-minutes-on-a-server-or-essential-security-for-linux-servers
 [server]: https://localhost:4000
 [repo]: https://github.com/Pshriwise/thw_server_demo
