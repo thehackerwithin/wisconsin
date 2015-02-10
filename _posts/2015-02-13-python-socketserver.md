@@ -22,9 +22,10 @@ Today's presenation will be a brief demo of how to setup a local server, handlin
 
 ###Python modules needed to follow along
 
-       -python-socketserver (for server)
-       -python-simplehttpserver (for request handler, ususally comes with python)
-       -python-gspread (for editing google sheets)
+* python-socketserver (for server)
+* python-simplehttpserver (for request handler, ususally comes with python)
+* python-gspread (for editing google sheets)
+* python-cgi (a common interface for passing/parsing html data)
 
 ##Setting up the server
 
@@ -82,12 +83,19 @@ So now when we visit our [server][server], the browser will simply get an error 
 
 ## The Tie-in
 
+So why might you want to use something like this?
+
+* Relatively lightweight way to collaborate with others. 
+* Create a simple listening device on your machine (rather than polling).
+* Another means of interaction with your machine from afar.
+
+
+WARNING: If you plan on leaving a server like this running on a machine, it is important to take recommended saftey measures. ([go here for more][server_safety]
 
 
 
 
-
-
+[server_safety]: http://plusbryan.com/my-first-5-minutes-on-a-server-or-essential-security-for-linux-servers
 [server]: https://localhost:4000
 [repo]: https://github.com/Pshriwise/thw_server_demo
 [code]: {{ site.github.repository_url }}/tree/master/topic
