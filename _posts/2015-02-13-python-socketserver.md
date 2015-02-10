@@ -20,7 +20,7 @@ Graduate student of Paul's at UW-Madison.
 
 Matthew Gidden will provide a short, live demo of cloning and updating a
 repository. Most of the content will cover similar examples from Software
-Carpentry workshops ([1][git-local], [2][git-github]]).
+Carpentry workshops ([1][git-local], [2][git-github]).
 
 ## Using Python's SocketServer
 
