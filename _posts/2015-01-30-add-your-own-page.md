@@ -2,7 +2,7 @@
 layout: post
 title: How to Add Your Own Page to Our Website
 author: Paul Wilson
-category: upcoming
+category: posts
 tags: meeting github jekyll
 ---
 
