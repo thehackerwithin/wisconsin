@@ -16,10 +16,10 @@ The {{ site.name }}
 Next Meeting
 -------------
 
-* Date: Jan 30, 2015
+* Date: Feb 13, 2015
 * Time: 12-1 PM
-* Location: [2188 Mechanical Engineering][me_map]
-* Topic: Jekyll for Github Markdown
+* Location: [3425 Sterling Hall][sterling_map]
+* Topic: Using Python SocketServer
 
 What:
 -----
@@ -58,3 +58,4 @@ Other chapters:
 </section>
 
 [me_map]: http://map.wisc.edu/s/4olvug5e
+[sterling_map]: http://map.wisc.edu/s/jzb4imln
