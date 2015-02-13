@@ -24,9 +24,11 @@ Code examples can be found [here][code].
 
 ## Lightning Talks 
 
-## <+ person +> : <+ topic +>
+## [Andrew Seidl][andrewseidl] : [ClangFormat][clangformat] All The Things
 
 ## <+ person +> : <+ topic +>
 
 
 [code]: {{ site.github.repository_url }}/tree/master/topic
+[andrewseidl]: https://github.com/andrewseidl
+[clangformat]: http://clang.llvm.org/docs/ClangFormat.html
