@@ -18,7 +18,7 @@ tags: meeting python multi-processing
 
 ## Multi-processing in Python
 
-To be filled in here....
+A discussion of using the `multiprocessing` module from Python 
 
 Code examples can be found [here][code].
 
