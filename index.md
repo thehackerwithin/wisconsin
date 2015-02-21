@@ -17,14 +17,13 @@ Next Meeting
 -------------
 
 {% assign upcoming = (site.posts | where: "category", "upcoming") %}
+{% assign next_mtg = upcoming.last %}
 
-* Date: {{ upcoming[0].date | date: "%B %e, %Y" }}
-
-
-* Date: Feb 13, 2015
-* Time: 12-1 PM
-* Location: [3425 Sterling Hall][sterling_map]
-* Topic: Using Python SocketServer
+* Date: {{ next_mtg.date | date: "%B %e, %Y" }}
+* Time: {{ next_mtg.time }}
+* Location:  {% if next_mtg.location_map %} <a href="{{ next_mtg.location_map }}"> {% endif %}{{ next_mtg.location }}{% if next_mtg.location_map %} </a> {% endif %}
+* Topic: <a href="{{ site.url }}{{ next_mtg.url }}"> {{ next_mtg.title }} </a>
+{% if next_mtg.author %} * Presenter: {{ next_mtg.author }} {% endif %}
 
 What:
 -----

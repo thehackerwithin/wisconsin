@@ -3,6 +3,9 @@ layout: post
 title: Command-line Olympics
 author: Elliott Biondo
 category: upcoming
+time: 12-1 PM
+location: 3425 Sterling Hall
+location_map: http://map.wisc.edu/s/jzb4imln
 tags: meeting fun command-line bash
 ---
 
