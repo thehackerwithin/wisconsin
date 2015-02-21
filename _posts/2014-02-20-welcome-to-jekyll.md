@@ -1,5 +1,9 @@
 ---
 layout: post
+author: Paul Wilson
+time: 12-1 PM
+location: TBD
+location_map: http://www.google.com
 title:  "Welcome to Jekyll!"
 category: posts
 ---
