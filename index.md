@@ -16,6 +16,11 @@ The {{ site.name }}
 Next Meeting
 -------------
 
+{% assign upcoming = (site.posts | where: "category", "upcoming") %}
+
+* Date: {{ upcoming[0].date | date: "%B %e, %Y" }}
+
+
 * Date: Feb 13, 2015
 * Time: 12-1 PM
 * Location: [3425 Sterling Hall][sterling_map]
