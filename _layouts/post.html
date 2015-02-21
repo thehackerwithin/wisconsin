@@ -8,7 +8,9 @@ layout: layout
   </h1>
 
   <section class="byline">
-    {{ page.date | date: "%B %e, %Y" }}
+    {{ page.date | date: "%B %e, %Y" }}<br>
+    {{ page.time }}<br>
+    {% if page.location_map %} <a href="{{ page.location_map }}"> {% endif %}{{ page.location }}{% if page.location_map %} </a> {% endif %}
   </section>
 
   {{ content }}
