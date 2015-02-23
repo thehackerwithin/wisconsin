@@ -2,7 +2,7 @@
 layout: post
 title: Using Python SocketServer
 author: Patrick Shriwise
-category: upcoming
+category: posts
 tags: python server 
 ---
 
