@@ -160,15 +160,16 @@ print r4
 - If using `get()`, only basic Python structures can be passed through 
 (lists, dictionaries, arrays, etc).
 
-
 ## Tips and Tricks
 
 - This does not work (to the best of my knowledge) if you call it within 
 a class (such as in a `unittest` class).
 
-- You can use this with `nosetests` very easily. Assert statements can be
-made in the test function `f(x)` but any `SkipTests` must be done in the 
-process call. (See this [example][test] and run as `nosetests test_example.py`).
+- You can use this with `nosetests` very easily. Assert statements must be
+made in the function that creates the process (otherwise tests that should fail 
+will show as passes). `SkipTests` can be done in either the function that calls
+the process or the actual function. (See this [example][test] and run as 
+`nosetests test_example.py`).
 
 ## Lightning Discussions 
 
