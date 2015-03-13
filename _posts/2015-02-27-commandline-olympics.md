@@ -2,7 +2,7 @@
 layout: post
 title: Command-line Olympics
 author: Elliott Biondo
-category: upcoming
+category: posts
 time: 12-1 PM
 location: 3425 Sterling Hall
 location_map: http://map.wisc.edu/s/jzb4imln
