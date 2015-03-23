@@ -2,6 +2,9 @@
 layout: post
 title: LaTex/Beamer
 author: Elliott Biondo
+time: 12-1 PM
+location: 3425 Sterling Hall
+location_map: http://map.wisc.edu/s/jzb4imln
 category: upcoming
 tags: latex beamer markup
 ---
