@@ -5,7 +5,7 @@ time: 12-1 PM
 location: 3425 Sterling Hall
 location_map: http://map.wisc.edu/s/jzb4imln
 category: upcoming
-tags: latex beamer markup
+tags: reference managment, server, website
 ---
 
 This week there will be several lightning talks on various topics.
