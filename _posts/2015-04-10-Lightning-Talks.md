@@ -4,7 +4,7 @@ title: Lightning Talks
 time: 12-1 PM
 location: 3425 Sterling Hall
 location_map: http://map.wisc.edu/s/jzb4imln
-category: upcoming
+category: posts
 tags: reference managment, server, website, beamer
 ---
 
