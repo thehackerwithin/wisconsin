@@ -45,7 +45,7 @@ Anyone interested in software development best practices is welcome to come to o
 When:
 -----
 
-Every second Friday, from 12-1 PM.
+Every second Tuesday, from 1:30-2:30 PM.
 
 Other chapters:
 ------------------
