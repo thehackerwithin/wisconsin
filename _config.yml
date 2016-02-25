@@ -1,5 +1,8 @@
-markdown: rdiscount
-pygments: true
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  parse_block_html: true
 permalink: /posts/:title
 auto: false
 rdiscount:
